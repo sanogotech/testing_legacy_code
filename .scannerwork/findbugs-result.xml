@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1571726280849" analysisTimestamp="1571726404889" release="">
+  <Project>
+    <Jar>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\classes\org\craftedsw\harddependencies\TripService_Original.class</Jar>
+    <Jar>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\classes\org\craftedsw\harddependencies\exception\DependendClassCallDuringUnitTestException.class</Jar>
+    <Jar>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\classes\org\craftedsw\harddependencies\exception\UserNotLoggedInException.class</Jar>
+    <Jar>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\classes\org\craftedsw\harddependencies\trip\Trip.class</Jar>
+    <Jar>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\classes\org\craftedsw\harddependencies\trip\TripDAO.class</Jar>
+    <Jar>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\classes\org\craftedsw\harddependencies\trip\TripService.class</Jar>
+    <Jar>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\classes\org\craftedsw\harddependencies\user\User.class</Jar>
+    <Jar>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\classes\org\craftedsw\harddependencies\user\UserSession.class</Jar>
+    <Jar>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\test-classes\org\craftedsw\harddependencies\TripServiceTest$1.class</Jar>
+    <Jar>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\test-classes\org\craftedsw\harddependencies\TripServiceTest.class</Jar>
+    <Jar>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\test-classes\org\craftedsw\harddependencies\UserBuilder.class</Jar>
+    <Jar>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\test-classes\org\craftedsw\harddependencies\UserTest.class</Jar>
+    <AuxClasspathEntry>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\MACROSOFT\githubsanogotech\testing_legacy_code\target\test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\MACROSOFT\githubsanogotech\testing_legacy_code\.scannerwork\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\MACROSOFT\githubsanogotech\testing_legacy_code\.scannerwork\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>C:\MACROSOFT\githubsanogotech\testing_legacy_code\.scannerwork</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="3">
+    <MissingClass>org.hamcrest.Matchers</MissingClass>
+    <MissingClass>org.hamcrest.core.Is</MissingClass>
+    <MissingClass>org.junit.Assert</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Tue, 22 Oct 2019 07:38:00 +0100" total_classes="12" referenced_classes="49" total_bugs="0" total_size="162" num_packages="4" java_version="11.0.3" vm_version="11.0.3+7" cpu_seconds="19.72" clock_seconds="6.87" peak_mbytes="214.96" alloc_mbytes="2018.00" gc_seconds="0.09">
+    <FileStats path="org/craftedsw/harddependencies/TripServiceTest.java" bugCount="0" size="35"/>
+    <FileStats path="org/craftedsw/harddependencies/TripService_Original.java" bugCount="0" size="17"/>
+    <FileStats path="org/craftedsw/harddependencies/UserBuilder.java" bugCount="0" size="30"/>
+    <FileStats path="org/craftedsw/harddependencies/UserTest.java" bugCount="0" size="9"/>
+    <FileStats path="org/craftedsw/harddependencies/exception/DependendClassCallDuringUnitTestException.java" bugCount="0" size="14"/>
+    <FileStats path="org/craftedsw/harddependencies/exception/UserNotLoggedInException.java" bugCount="0" size="4"/>
+    <FileStats path="org/craftedsw/harddependencies/trip/Trip.java" bugCount="0" size="3"/>
+    <FileStats path="org/craftedsw/harddependencies/trip/TripDAO.java" bugCount="0" size="5"/>
+    <FileStats path="org/craftedsw/harddependencies/trip/TripService.java" bugCount="0" size="13"/>
+    <FileStats path="org/craftedsw/harddependencies/user/User.java" bugCount="0" size="19"/>
+    <FileStats path="org/craftedsw/harddependencies/user/UserSession.java" bugCount="0" size="13"/>
+    <PackageStats package="org.craftedsw.harddependencies" total_bugs="0" total_types="5" total_size="91">
+      <ClassStats class="org.craftedsw.harddependencies.TripServiceTest" sourceFile="TripServiceTest.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="org.craftedsw.harddependencies.TripServiceTest$1" sourceFile="TripServiceTest.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="org.craftedsw.harddependencies.TripService_Original" sourceFile="TripService_Original.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="org.craftedsw.harddependencies.UserBuilder" sourceFile="UserBuilder.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="org.craftedsw.harddependencies.UserTest" sourceFile="UserTest.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.craftedsw.harddependencies.exception" total_bugs="0" total_types="2" total_size="18">
+      <ClassStats class="org.craftedsw.harddependencies.exception.DependendClassCallDuringUnitTestException" sourceFile="DependendClassCallDuringUnitTestException.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="org.craftedsw.harddependencies.exception.UserNotLoggedInException" sourceFile="UserNotLoggedInException.java" interface="false" size="4" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.craftedsw.harddependencies.trip" total_bugs="0" total_types="3" total_size="21">
+      <ClassStats class="org.craftedsw.harddependencies.trip.Trip" sourceFile="Trip.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="org.craftedsw.harddependencies.trip.TripDAO" sourceFile="TripDAO.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="org.craftedsw.harddependencies.trip.TripService" sourceFile="TripService.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="org.craftedsw.harddependencies.user" total_bugs="0" total_types="2" total_size="32">
+      <ClassStats class="org.craftedsw.harddependencies.user.User" sourceFile="User.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="org.craftedsw.harddependencies.user.UserSession" sourceFile="UserSession.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1055" invocations="562" avgMicrosecondsPerInvocation="1878" maxMicrosecondsPerInvocation="87909" standardDeviationMicrosecondsPerInvocation="5418"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="345" invocations="49" avgMicrosecondsPerInvocation="7056" maxMicrosecondsPerInvocation="60344" standardDeviationMicrosecondsPerInvocation="13038"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="320" invocations="566" avgMicrosecondsPerInvocation="566" maxMicrosecondsPerInvocation="10062" standardDeviationMicrosecondsPerInvocation="595"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="307" invocations="232" avgMicrosecondsPerInvocation="1325" maxMicrosecondsPerInvocation="29817" standardDeviationMicrosecondsPerInvocation="2532"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="249" invocations="49" avgMicrosecondsPerInvocation="5098" maxMicrosecondsPerInvocation="46608" standardDeviationMicrosecondsPerInvocation="9950"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="150" invocations="49" avgMicrosecondsPerInvocation="3070" maxMicrosecondsPerInvocation="36928" standardDeviationMicrosecondsPerInvocation="7172"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="128" invocations="42" avgMicrosecondsPerInvocation="3060" maxMicrosecondsPerInvocation="107958" standardDeviationMicrosecondsPerInvocation="16405"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="111" invocations="515" avgMicrosecondsPerInvocation="217" maxMicrosecondsPerInvocation="7978" standardDeviationMicrosecondsPerInvocation="641"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="86" invocations="86" avgMicrosecondsPerInvocation="1003" maxMicrosecondsPerInvocation="37452" standardDeviationMicrosecondsPerInvocation="4308"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="78" invocations="42" avgMicrosecondsPerInvocation="1873" maxMicrosecondsPerInvocation="15452" standardDeviationMicrosecondsPerInvocation="2954"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="78" invocations="49" avgMicrosecondsPerInvocation="1593" maxMicrosecondsPerInvocation="13832" standardDeviationMicrosecondsPerInvocation="3088"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="71" invocations="42" avgMicrosecondsPerInvocation="1698" maxMicrosecondsPerInvocation="14781" standardDeviationMicrosecondsPerInvocation="3167"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="68" invocations="49" avgMicrosecondsPerInvocation="1396" maxMicrosecondsPerInvocation="21078" standardDeviationMicrosecondsPerInvocation="3631"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="64" invocations="49" avgMicrosecondsPerInvocation="1325" maxMicrosecondsPerInvocation="26895" standardDeviationMicrosecondsPerInvocation="5475"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="64" invocations="44" avgMicrosecondsPerInvocation="1472" maxMicrosecondsPerInvocation="21802" standardDeviationMicrosecondsPerInvocation="3339"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="64" invocations="42" avgMicrosecondsPerInvocation="1535" maxMicrosecondsPerInvocation="16934" standardDeviationMicrosecondsPerInvocation="2829"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="61" invocations="42" avgMicrosecondsPerInvocation="1456" maxMicrosecondsPerInvocation="25764" standardDeviationMicrosecondsPerInvocation="3858"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="60" invocations="49" avgMicrosecondsPerInvocation="1236" maxMicrosecondsPerInvocation="10177" standardDeviationMicrosecondsPerInvocation="2227"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="59" invocations="49" avgMicrosecondsPerInvocation="1218" maxMicrosecondsPerInvocation="7559" standardDeviationMicrosecondsPerInvocation="1886"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
